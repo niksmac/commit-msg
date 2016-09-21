@@ -10,6 +10,9 @@ error() {
 
 while read -r line
 do
+    # Ignore comment lines (don't count line number either)
+    [[ "$line" =~ ^#.* ]] && continue
+
     let lineno+=1
     length=${#line}
 

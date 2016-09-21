@@ -1,0 +1,2 @@
+One line comments allowed
+# Comments stripped
