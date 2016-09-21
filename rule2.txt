@@ -1,0 +1,3 @@
+Subjects that are longer than 50 characters are not allowed
+
+The body is OK.
